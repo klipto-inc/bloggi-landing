@@ -1,6 +1,7 @@
 import GradientWrapper from '../../GradientWrapper';
 import NavLink from '../NavLink';
 
+
 const Hero = () => (
   <section>
     {/* <GradientWrapper wrapperClassName="inset-0" className="custom-screen text-gray-600">
@@ -115,7 +116,7 @@ const Hero = () => (
 
           <div>
             <img
-              src='https://saasblocks-preview-tdg1-prd.fly.dev/assets/mobile-app-dashboard.jpeg'
+              src='https://firebasestorage.googleapis.com/v0/b/bloggi-f7455.appspot.com/o/Bloggi-web%2FScreenshot%202024-03-05%20at%2012.29.14.png?alt=media&token=b362977d-1a3d-4c23-b75c-e4fb730a6659'
               alt=''
               className='w-full rounded-3xl'
             />
