@@ -84,7 +84,7 @@ const Hero = () => (
                 audience as a creator
               </span>
             </h1>
-            <p className='text-lg font-medium md:max-w-3xl'>
+            <p className='text-lg font-medium md:max-w-3xl line-clamp-2 lg:line-clamp-3'>
               Discover a new way to express yourself. Join our innovative
               blogging platform where you can share your thoughts through
               captivating blog posts and engage with your audience in real-time
