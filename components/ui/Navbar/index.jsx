@@ -59,7 +59,7 @@ const Navbar = () => {
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:text-gray-900 text-[17px] flex flex-row gap-1 items-center '>
-                <IoIosLock className="text-[23px] mb-1" />
+                <IoIosLock className="text-[21px] mb-0.5" />
                 Sign in
               </a>
 
