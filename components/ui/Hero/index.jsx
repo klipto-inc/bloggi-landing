@@ -118,7 +118,7 @@ const Hero = () => (
             <img
               src='https://firebasestorage.googleapis.com/v0/b/bloggi-f7455.appspot.com/o/Bloggi-web%2FScreenshot%202024-03-05%20at%2012.29.14.png?alt=media&token=b362977d-1a3d-4c23-b75c-e4fb730a6659'
               alt=''
-              className='w-full rounded-3xl'
+              className='w-full rounded-2xl object-cover object-left h-[50vh] md:h-full'
             />
           </div>
         </div>
