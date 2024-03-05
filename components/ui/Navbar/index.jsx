@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import NavHeader from '../NavHeader';
 import NavLink from '../NavLink';
+import { IoIosLock } from 'react-icons/io';
 
 const Navbar = () => {
   const [state, setState] = useState(false);
@@ -45,7 +46,7 @@ const Navbar = () => {
               {navigation.map((item, idx) => {
                 return (
                   <li key={idx} className='hover:text-gray-900'>
-                    <Link href={item.href} className='block' scroll={false}>
+                    <Link href={item.href} className='block text-[17px]' scroll={false}>
                       {item.name}
                     </Link>
                   </li>
@@ -57,13 +58,14 @@ const Navbar = () => {
                 href='http://bloggi-client.vercel.app/signin'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='block hover:text-gray-900'>
+                className='hover:text-gray-900 text-[17px] flex flex-row gap-1 items-center '>
+                <IoIosLock className="text-[23px] mb-1" />
                 Sign in
               </a>
 
               <NavLink
                 href='/pricing'
-                className='flex items-center justify-center gap-x-1 text-sm text-white font-medium bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline-flex'>
+                className='flex items-center text-[17px] justify-center gap-x-1 text-sm text-white font-medium bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline-flex'>
                 Get started
                 <svg
                   xmlns='http://www.w3.org/2000/svg'

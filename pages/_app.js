@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
           content='Unlocking the power of content: Empowering you to grow your influence.'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.ico'/>
       </Head>
       <Component {...pageProps} />
     </main>
