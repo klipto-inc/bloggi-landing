@@ -11,6 +11,7 @@ export default function index() {
         <meta name='robots' content='index' />
         <title>Pricing - Split</title>
       </Head>
+      
       <Navbar />
       <Pricing />
       <FAQs />
