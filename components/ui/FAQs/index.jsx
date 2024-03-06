@@ -1,4 +1,5 @@
 import SectionWrapper from "../../SectionWrapper";
+import { MdQuestionAnswer } from "react-icons/md";
 
 const faqsList = [
     {
@@ -93,7 +94,8 @@ const FAQs = () => (
                             className="space-y-3"
                         >
                             <summary
-                                className="flex items-center justify-between font-semibold text-gray-700">
+                                className="flex items-center gap-2 font-semibold text-gray-700">
+                                    <MdQuestionAnswer className="text-[#FF3131] max-text-[20px]"/>
                                 {item.q}
                             </summary>
                             <p

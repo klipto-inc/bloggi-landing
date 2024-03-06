@@ -44,29 +44,29 @@ const Hero = () => (
             <div className='flex flex-col items-center gap-2 md:flex-row'>
               <div className='flex -space-x-4'>
                 <img
-                  src='https://saasblocks-preview-tdg1-prd.fly.dev/assets/avatars/randy-warren.png'
+                  src='https://www.hollywoodreporter.com/wp-content/uploads/2022/08/Chad-Headshot11.jpeg?w=1296'
                   alt='avatar'
-                  className='h-14 w-14 rounded-full md:h-16 md:w-16'
+                  className='h-14 w-14 rounded-full md:h-16 md:w-16 object-cover position-center'
                 />
                 <img
-                  src='https://saasblocks-preview-tdg1-prd.fly.dev/assets/avatars/irina-zaytesev.png'
+                  src='https://images.unsplash.com/photo-1581547848331-0aba76655842?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D'
                   alt='avatar'
-                  className='h-14 w-14 rounded-full md:h-16 md:w-16'
+                  className='h-14 w-14 rounded-full md:h-16 md:w-16 object-cover position-center'
                 />
                 <img
-                  src='https://saasblocks-preview-tdg1-prd.fly.dev/assets/avatars/pasquale-blanco.png'
+                  src='https://media.istockphoto.com/id/1278978817/photo/portrait-of-happy-mature-man-smiling.webp?b=1&s=170667a&w=0&k=20&c=-G50QM8y40HoN7k6lh1TL3ZFxASPYpIs_DJxo5FkEK0='
                   alt='avatar'
-                  className='h-14 w-14 rounded-full md:h-16 md:w-16'
+                  className='h-14 w-14 rounded-full md:h-16 md:w-16 object-cover position-center'
                 />
                 <img
-                  src='https://saasblocks-preview-tdg1-prd.fly.dev/assets/avatars/dianne-russell.png'
+                  src='https://a.storyblok.com/f/119964/1200x800/0eaa71d1d8/podcast_brandlovev2.jpeg'
                   alt='avatar'
-                  className='h-14 w-14 rounded-full md:h-16 md:w-16'
+                  className='h-14 w-14 rounded-full md:h-16 md:w-16 object-cover position-center'
                 />
                 <img
-                  src='https://saasblocks-preview-tdg1-prd.fly.dev/assets/avatars/dianne-russell.png'
+                  src='https://t4.ftcdn.net/jpg/06/03/34/53/360_F_603345302_1eBiHLriYQnDJhhb9gRcYZ9MUuXuFyKD.jpg'
                   alt='avatar'
-                  className='h-14 w-14 rounded-full md:h-16 md:w-16'
+                  className='h-14 w-14 rounded-full md:h-16 md:w-16 object-cover position-center'
                 />
                 <div className='grid h-14 w-14 bg-gray-500 text-white place-content-center rounded-full bg-layer-2 font-medium dark:bg-layer-3 md:h-16 md:w-16'>
                   +2000
