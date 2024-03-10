@@ -55,7 +55,7 @@ const Navbar = () => {
             </ul>
             <div className='flex-1 gap-x-6 items-center justify-end mt-6 space-y-6 md:flex md:space-y-0 md:mt-0'>
               <a
-                href='http://bloggi-client.vercel.app/signin'
+                href='http://bloggi-client.vercel.app/auth/signin'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:text-gray-900 text-[17px] flex flex-row gap-1 items-center '>
